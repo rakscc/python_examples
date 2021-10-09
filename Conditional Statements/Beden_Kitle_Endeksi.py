@@ -22,3 +22,8 @@ elif ( 30<= bke):
     print(" Obezitesiniz")
 else:
     print(" Lütfen dogru deger girin !")
+
+    
+    
+    
+    
