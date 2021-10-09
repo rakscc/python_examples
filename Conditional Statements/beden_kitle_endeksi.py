@@ -1,13 +1,14 @@
+
 print("""
 *****************************************************************
 
-Beden Kitle Endeksine Hoşgeldin
+Beden Kitle Endeksine Hosgeldin
 
 *****************************************************************
 """ )
 
-boy = float(input(" Lütfen Boyunuzu giriniz.(m)"))
-kilo = float(input(" Lütfen Kilonuzu giriniz.(kg)"))
+boy = float(input(" Lutfen Boyunuzu giriniz.(m)"))
+kilo = float(input(" Lutfen Kilonuzu giriniz.(kg)"))
 
 bke = (kilo / (boy ** 2))
 print(" Beden Kitle Endeksiniz {} 'dır ".format(bke))
@@ -21,9 +22,4 @@ elif ( 25 <= bke <= 30 ):
 elif ( 30<= bke):
     print(" Obezitesiniz")
 else:
-    print(" Lütfen dogru deger girin !")
-
-    
-    
-    
-    
+    print(" Lutfen dogru deger girin !")
