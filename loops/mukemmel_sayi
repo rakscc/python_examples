@@ -1,0 +1,25 @@
+
+print(" mukemmel sayiya hosgeldiniz "
+      " cikis yapmak icin q tusuna basiniz ")
+
+sayi = input(" lutfen sayiyi giriniz ")
+
+while True:
+    if ( sayi == "q" ):
+        print( " program sonlandi cikis yapiliyor ")
+        break
+    sayi = int(sayi)
+    bolenler = []
+
+    for i in range(1,sayi+1):
+        if ( sayi%i ==0 ):
+            bolenler.append(i)
+    bolenler_toplam = sum(bolenler)
+
+    if ( (bolenler_toplam - sayi) == sayi ):
+        print(" Tebrikler {} sayisi Mükemmel sayidir".format(sayi))
+    else:
+        print(" {} sayisi mukemmel sayi degildir".format(sayi))
+
+    break
+
